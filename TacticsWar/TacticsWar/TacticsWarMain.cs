@@ -15,7 +15,7 @@ namespace TacticsWar
             
             ReadLine();
         }
-        public static string QuardinateState()
+        public static string CoordinateState()
         {
             return " ";
         }
@@ -23,7 +23,7 @@ namespace TacticsWar
         public void PrintBoard()
         {
             WriteLine("   0  1  2  3  4  5  6  7  8  9");
-            WriteLine("0 [" + QuardinateState() + "][ ][ ][ ][ ][ ][ ][ ][ ][ ]");
+            WriteLine("0 [" + CoordinateState() + "][ ][ ][ ][ ][ ][ ][ ][ ][ ]");
             WriteLine("1 [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]");
             WriteLine("2 [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]");
             WriteLine("3 [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]");
