@@ -11,8 +11,28 @@ namespace TacticsWar
     {
         static void Main(string[] args)
         {
-            WriteLine("Hello World! This project is born.");
+            
+            
             ReadLine();
+        }
+        public static string QuardinateState()
+        {
+            return " ";
+        }
+
+        public void PrintBoard()
+        {
+            WriteLine("   0  1  2  3  4  5  6  7  8  9");
+            WriteLine("0 [" + QuardinateState() + "][ ][ ][ ][ ][ ][ ][ ][ ][ ]");
+            WriteLine("1 [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]");
+            WriteLine("2 [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]");
+            WriteLine("3 [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]");
+            WriteLine("4 [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]");
+            WriteLine("5 [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]");
+            WriteLine("6 [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]");
+            WriteLine("7 [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]");
+            WriteLine("8 [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]");
+            WriteLine("9 [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]");
         }
     }
 }
